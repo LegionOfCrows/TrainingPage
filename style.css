@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 100px 0px 100px;
+    align-items: center;
+    background-color: #1f2937;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+.HeaderLogo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight:bolder;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+.firstSection{
+    display: flex;
+}

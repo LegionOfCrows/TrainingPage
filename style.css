@@ -22,11 +22,12 @@ a,.heroSecondaryText{
 }
 .heroImage{
     width: 400px;
-    height: 200px;
+    height: 239px;
 }
 img{
-    width: 400px;
+    width: 200px;
     height: 200px;
+    text-align: center;
 }
 .HeaderLogo{
     font-size: 24px;
@@ -63,4 +64,29 @@ button{
     color: #f9faf8;
     width: 100px;
     height: 30px;
+}
+.secondSection{
+    background-color: #f9faf8;
+}
+.headerInfo{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+.fourImages{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}
+.fText{
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+    padding-left: 5px;
+}
+.fImages{
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }

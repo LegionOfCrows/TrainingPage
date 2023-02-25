@@ -43,7 +43,7 @@ img{
 .firstSection{
     display: flex;
     flex:1;
-    padding:20px 150px 20px 150px;
+    padding:150px 150px 150px 150px;
     align-items: center;
     background-color: #1f2937;
 }
@@ -73,11 +73,14 @@ button{
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
+    margin-top: 0px;
+    padding-top: 55px;
 }
 .fourImages{
     display: flex;
     justify-content: center;
     gap:100px;
+    padding-bottom: 155px;
 }
 .fText{
     width: 200px;
@@ -89,4 +92,27 @@ button{
 .fImages{
     border: 5px solid #3882F6;
     border-radius: 10px;
+}
+.thirdSection{
+    background-color: #e5E7Eb;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 548px;
+}
+.Quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+    padding-top: 10px;
+}
+.text{
+    width: 914px;
+    justify-content: center;
+}
+.Thor{
+    text-align: end;
+    font-weight: bold;
 }
